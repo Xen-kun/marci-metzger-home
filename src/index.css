@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom tweaks */
+html, body, #root { height: 100%; }
+.hero-overlay {
+  background: linear-gradient(180deg, rgba(6,11,20,0.45) 0%, rgba(6,11,20,0.55) 100%);
+}
+.card-shadow {
+  box-shadow: 0 10px 30px rgba(20,30,50,0.06);
+}
