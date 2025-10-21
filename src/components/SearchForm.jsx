@@ -18,16 +18,26 @@ export default function SearchForm(){
           </select>
           <select className="p-3 rounded-md border bg-gray-50">
             <option>Bedrooms</option>
+            <option>Any Number</option>
+            <option>Studio</option>
+            <option>1+</option>
+            <option>2+</option>
+            <option>3+</option>
+            <option>4+</option>
+            <option>5+</option>
           </select>
           <select className="p-3 rounded-md border bg-gray-50">
             <option>Baths</option>
+            <option>Any Number</option>
+            <option>Studio</option>
+            <option>1+</option>
+            <option>2+</option>
+            <option>3+</option>
+            <option>4+</option>
+            <option>5+</option>
           </select>
-          <select className="p-3 rounded-md border bg-gray-50">
-            <option>Min Price</option>
-          </select>
-          <select className="p-3 rounded-md border bg-gray-50">
-            <option>Max Price</option>
-          </select>
+            <input type="text" id="username" placeholder="Min Price"/>
+            <input type="text" id="username" placeholder="Max Price"/>
 
           <div className="md:col-span-3 mt-3">
             <button className="w-full py-3 bg-primary text-white rounded-md font-semibold">Search Properties</button>
