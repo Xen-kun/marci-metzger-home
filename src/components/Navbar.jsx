@@ -21,7 +21,12 @@ export default function Navbar(){
 
         <div className="hidden md:flex items-center gap-4">
           <div className="text-sm text-gray-600">📞 (702) 519-0406</div>
-          <button className="px-4 py-2 bg-primary text-white rounded-md">Get In Touch</button>
+            <a
+            href="#contact"
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+            >
+            Get in Touch
+            </a>
         </div>
 
         {/* Mobile menu icon */}

@@ -1,4 +1,5 @@
 import React from "react";
+import MapSection from "./MapSection";
 
 export default function Contact(){
   return (
@@ -9,15 +10,35 @@ export default function Contact(){
       </div>
 
       <div className="grid md:grid-cols-2 gap-8">
-        <div className="bg-white rounded-xl p-6 card-shadow">
-          <h3 className="text-xl font-semibold mb-4">Send Message</h3>
-          <form className="space-y-4">
-            <input className="w-full p-3 border rounded-md bg-gray-50" placeholder="Your name" />
-            <input className="w-full p-3 border rounded-md bg-gray-50" placeholder="your.email@example.com" />
-            <textarea className="w-full p-3 border rounded-md bg-gray-50" placeholder="How can I help you?" rows="5" />
-            <button className="w-full py-3 bg-primary text-white rounded-md">Send</button>
-            <button className="w-full mt-3 py-3 bg-emerald-500 text-white rounded-md">Message us on WhatsApp</button>
-          </form>
+        <div className="flex flex-col h-full justify-between bg-white rounded-lg shadow p-6">
+            <form className="flex flex-col flex-grow space-y-4">
+                <input
+                className="w-full p-3 border rounded-md bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Your name"
+                />
+                <input
+                className="w-full p-3 border rounded-md bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="your.email@example.com"
+                />
+                <textarea
+                className="w-full p-3 border rounded-md bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="How can I help you?"
+                rows="5"
+                />
+                
+                {/* Spacer to push buttons down */}
+                <div className="flex-grow" />
+            </form>
+
+            {/* Buttons section anchored to bottom */}
+            <div className="mt-4 space-y-3">
+                <button className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md transition-all duration-200 hover:scale-[1.02]">
+                    Send
+                </button>
+                <button className="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-medium rounded-md transition-all duration-200 hover:scale-[1.02]">
+                    Message us on WhatsApp
+                </button>
+            </div>
         </div>
 
         <aside className="space-y-4">
@@ -51,7 +72,8 @@ export default function Contact(){
 
           <div className="mt-4">
             {/* Map placeholder - replace with real iframe if desired */}
-            <img src="/images/map-placeholder.jpg" alt="map" className="w-full rounded-md" />
+            {/* <img src="/images/map-placeholder.jpg" alt="map" className="w-full rounded-md" /> */}
+            <MapSection />
           </div>
         </aside>
       </div>

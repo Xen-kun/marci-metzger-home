@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 
 const images = [
-  "/images/gallery1.jpg",
-  "/images/gallery2.jpg",
-  "/images/gallery3.jpg"
+  "/images/gallery/1.png",
+  "/images/gallery/2.png",
+  "/images/gallery/3.png",
+  "/images/gallery/4.png",
+  "/images/gallery/5.png",
+  "/images/gallery/6.png",
 ];
 
 export default function Gallery(){

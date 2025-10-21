@@ -4,7 +4,7 @@ export default function About(){
   return (
     <section className="py-16 grid md:grid-cols-2 gap-10 items-center">
       <div className="bg-white rounded-xl overflow-hidden card-shadow p-4">
-        <img src="/images/about.jpg" alt="about" className="w-full h-80 object-cover rounded-xl"/>
+        <img src="/images/aboutMarci/marci.png" alt="about" className="w-full h-70 object-cover rounded-xl"/>
       </div>
 
       <div>

@@ -1,9 +1,9 @@
 import React from "react";
 
 const cards = [
-  { img: "/images/listing1.jpg", title: "Luxury Estates", desc: "High-end properties with premium features" },
-  { img: "/images/listing2.jpg", title: "Family Homes", desc: "Perfect spaces for growing families" },
-  { img: "/images/listing3.jpg", title: "Golf Course Living", desc: "Homes with stunning course views" },
+  { img: "/images/getItSold/pool.png", title: "Luxury Estates", desc: "High-end properties with premium features" },
+  { img: "/images/getItSold/kitchen.png", title: "Family Homes", desc: "Perfect spaces for growing families" },
+  { img: "/images/getItSold/keys.png", title: "Golf Course Living", desc: "Homes with stunning course views" },
 ];
 
 export default function Listings(){

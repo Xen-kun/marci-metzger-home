@@ -20,19 +20,23 @@ export default function SearchForm(){
             <option>Bedrooms</option>
           </select>
           <select className="p-3 rounded-md border bg-gray-50">
-            <option>Bathrooms</option>
+            <option>Baths</option>
           </select>
           <select className="p-3 rounded-md border bg-gray-50">
-            <option>No min</option>
+            <option>Min Price</option>
           </select>
           <select className="p-3 rounded-md border bg-gray-50">
-            <option>No max</option>
+            <option>Max Price</option>
           </select>
 
           <div className="md:col-span-3 mt-3">
             <button className="w-full py-3 bg-primary text-white rounded-md font-semibold">Search Properties</button>
           </div>
         </form>
+        
+        <div className="mt-6">
+            <button disabled className="inline-block px-6 py-3 bg-[#0b1026] text-white rounded-md" >Search Now</button>
+        </div>
         <div className="text-center mt-4 text-gray-500">Can't find what you're looking for? <a href="#contact" className="text-primary">Contact us</a></div>
       </div>
     </section>

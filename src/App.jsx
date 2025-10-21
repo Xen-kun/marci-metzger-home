@@ -5,10 +5,12 @@ import About from "./components/About";
 import Stats from "./components/Stats";
 import Listings from "./components/Listings";
 import SearchForm from "./components/SearchForm";
+import PartnerLogos from "./components/PartnerLogos";
 import Services from "./components/Services";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 
 export default function App(){
   return (
@@ -18,11 +20,12 @@ export default function App(){
         <Hero />
         <section className="max-w-7xl mx-auto px-6 md:px-8">
           <About />
-          <Stats />
           <Listings />
+          <Stats />
           <SearchForm />
-          <Services />
+          <PartnerLogos />
           <Gallery />
+          <Services />
           <Contact />
         </section>
       </main>
