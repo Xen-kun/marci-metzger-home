@@ -34,8 +34,8 @@ export default function SearchForm(){
           </div>
         </form>
         
-        <div className="mt-6">
-            <button disabled className="inline-block px-6 py-3 bg-[#0b1026] text-white rounded-md" >Search Now</button>
+        <div className="mt-6 flex justify-center">
+            <button disabled className="mb-10 inline-block px-6 py-3 bg-[#0b1026] text-white rounded-md" >Search Now</button>
         </div>
         <div className="text-center mt-4 text-gray-500">Can't find what you're looking for? <a href="#contact" className="text-primary">Contact us</a></div>
       </div>
